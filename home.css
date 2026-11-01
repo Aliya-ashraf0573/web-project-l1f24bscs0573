@@ -1,0 +1,211 @@
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff8f5;
+    font-family: Georgia, serif;
+    text-align: center;
+
+    border: 25px solid transparent;
+    border-image-source: url("border.png");
+    border-image-slice: 30;
+    border-image-width: 25px;
+    border-image-repeat: round;
+}
+
+/* Website Header */
+header {
+    background-color: #f8e1e7;
+    padding: 25px;
+}
+
+h1 {
+    color: #914e65;
+    font-size: 40px;
+}
+
+header p {
+    color: #75515b;
+    font-size: 18px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #9b6073;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffe0e8;
+}
+
+/* Main Section */
+main {
+    padding: 35px 20px;
+}
+
+h2 {
+    color: #914e65;
+    font-size: 28px;
+}
+
+main p {
+    color: #604b50;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Main Flower Image */
+main > img {
+    width: 320px;
+    max-width: 100%;
+    height: 380px;
+    object-fit: contain;
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(120, 50, 75, 0.2);
+}
+
+/* Shop Button */
+.shop-btn {
+    display: inline-block;
+    background-color: #9b6073;
+    color: white;
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.shop-btn:hover {
+    background-color: #704052;
+}
+
+/* Flower Gallery */
+.flower-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.flower-gallery div {
+    width: 250px;
+    max-width: 100%;
+}
+
+.flower-gallery img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #e7bdca;
+    box-shadow: 0 5px 15px rgba(120, 50, 75, 0.2);
+}
+
+.flower-gallery h3 {
+    color: #914e65;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 40px 20px;
+    background-color: #f8e1e7;
+    margin-top: 35px;
+}
+
+.welcome-section h2 {
+    color: #914e65;
+    font-size: 30px;
+}
+
+.welcome-section p {
+    color: #604b50;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Collection Section */
+.collection-section {
+    background-color: #fff0f3;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+.collection-section h2 {
+    color: #914e65;
+    font-size: 28px;
+}
+
+.collection-section p {
+    color: #604b50;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #9b6073;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 15px;
+    }
+
+    .flower-gallery {
+        margin: 20px 10px;
+        gap: 20px;
+    }
+
+    .flower-gallery div {
+        width: 220px;
+    }
+
+    body {
+        border-width: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .flower-gallery div {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    main > img {
+        height: 300px;
+    }
+}

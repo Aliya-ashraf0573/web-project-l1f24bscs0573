@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flower Orders | The Royal Stem</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>The Royal Stem</h1>
+        <p>Where Every Bloom Tells a Story</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="media.html">Flower Guide</a>
+        <a href="register.html">Flower Orders</a>
+    </nav>
+
+    <!-- Main Form Section -->
+    <main>
+
+        <h2>Place Your Flower Order</h2>
+
+        <p class="intro">
+            Choose your favourite flowers and share your
+            delivery details with us.
+        </p>
+
+        <form action="#" method="post">
+
+            <!-- Customer Information -->
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password"
+                    minlength="6" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone"
+                    placeholder="Enter phone number"
+                    required>
+
+            </fieldset>
+
+            <!-- Flower Selection -->
+            <fieldset>
+                <legend>Choose Your Flowers</legend>
+
+                <label for="flower">Select Flower:</label>
+                <select id="flower" name="flower" required>
+
+                    <option value="">Choose a flower</option>
+                    <option value="roses">Roses</option>
+                    <option value="tulips">Tulips</option>
+                    <option value="lilies">Lilies</option>
+                    <option value="sunflowers">Sunflowers</option>
+                    <option value="orchids">Orchids</option>
+
+                </select>
+
+                <label for="quantity">Number of Bouquets:</label>
+                <input type="number" id="quantity" name="quantity"
+                    min="1" max="20" required>
+
+                <label for="date">Delivery Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Delivery Time:</label>
+                <input type="time" id="time" name="time">
+
+                <label for="website">Your Website (Optional):</label>
+                <input type="url" id="website" name="website"
+                    placeholder="https://example.com">
+
+                <label for="color">Choose Flower Colour:</label>
+                <input type="color" id="color" name="color"
+                    value="#e7a6b8">
+
+                <label for="budget">Your Budget:</label>
+                <input type="range" id="budget" name="budget"
+                    min="1000" max="20000" value="5000">
+
+            </fieldset>
+
+            <!-- Delivery Information -->
+            <fieldset>
+                <legend>Delivery Details</legend>
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address"
+                    rows="4" placeholder="Enter your complete address"
+                    required></textarea>
+
+                <label for="photo">Upload Reference Image:</label>
+                <input type="file" id="photo" name="photo"
+                    accept="image/*">
+
+                <label>Delivery Type:</label>
+
+                <div class="choice">
+                    <input type="radio" id="home" name="delivery"
+                        value="home" checked>
+                    <label for="home">Home Delivery</label>
+                </div>
+
+                <div class="choice">
+                    <input type="radio" id="pickup" name="delivery"
+                        value="pickup">
+                    <label for="pickup">Store Pickup</label>
+                </div>
+
+                <label>Extra Services:</label>
+
+                <div class="choice">
+                    <input type="checkbox" id="card" name="extra"
+                        value="gift-card">
+                    <label for="card">Gift Card</label>
+                </div>
+
+                <div class="choice">
+                    <input type="checkbox" id="ribbon" name="extra"
+                        value="ribbon">
+                    <label for="ribbon">Special Ribbon</label>
+                </div>
+
+            </fieldset>
+
+            <!-- Additional Message -->
+            <fieldset>
+                <legend>Special Instructions</legend>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message"
+                    rows="4" maxlength="300"
+                    placeholder="Write a special message..."></textarea>
+
+                <label for="orderid">Order Category:</label>
+                <input type="text" id="orderid" value="Flower Order"
+                    readonly>
+
+                <label for="status">Order Status:</label>
+                <input type="text" id="status" value="Available"
+                    disabled>
+
+            </fieldset>
+
+            <!-- Form Buttons -->
+            <div class="buttons">
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear Form</button>
+            </div>
+
+        </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>The Royal Stem</h3>
+        <p>Where Every Bloom Tells a Story</p>
+        <p>© 2026 The Royal Stem. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
