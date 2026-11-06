@@ -1,4 +1,4 @@
-/* General Styling */
+
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-/* Header */
+
 
 header {
     background-color: #f8e1e7;
@@ -23,7 +23,7 @@ header h1 {
     font-size: 38px;
 }
 
-/* Navigation Bar */
+
 
 nav {
     background-color: #9b6073;
@@ -40,7 +40,7 @@ nav a:hover {
     color: #ffe0e8;
 }
 
-/* Main Section */
+
 
 main {
     padding: 20px 10px;
@@ -56,7 +56,7 @@ main p {
     line-height: 1.7;
 }
 
-/* Flower Gallery */
+
 .flower-gallery {
     display: flex;
     justify-content: center;
@@ -83,7 +83,7 @@ main p {
 }
 
 
-/* Video Section */
+
 
 .video-section {
     background-color: #f8e1e7;
@@ -108,7 +108,7 @@ video {
     box-shadow: 0 5px 15px rgba(120, 50, 75, 0.2);
 }
 
-/* Flower Types */
+
 
 .flower-types {
     background-color: #fff0f3;
@@ -141,7 +141,7 @@ video {
     padding: 5px;
 }
 
-/* Flower Table */
+
 
 .flower-table {
     margin: 40px auto;
@@ -176,14 +176,14 @@ td {
     color: #604b50;
 }
 
-/* Audio Section */
+
 
 .audio-section {
     padding: 35px;
     margin: 30px auto;
 }
 
-/* Footer */
+
 
 footer {
     background-color: #9b6073;
@@ -203,7 +203,7 @@ footer p {
     font-size: 15px;
 }
 
-/* Tablet Responsive Design */
+
 
 @media (max-width: 768px) {
 
@@ -231,7 +231,7 @@ footer p {
     }
 }
 
-/* Mobile Responsive Design */
+
 
 @media (max-width: 480px) {
 
