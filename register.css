@@ -10,7 +10,7 @@ body {
     color: #604b50;
 }
 
-/* Header */
+
 header {
     background: linear-gradient(to right, #f8e1e7, #fff0f3);
     text-align: center;
@@ -27,7 +27,7 @@ header p {
     color: #9b6073;
 }
 
-/* Navigation */
+
 nav {
     background-color: #9b6073;
     padding: 18px;
@@ -45,7 +45,7 @@ nav a:hover {
     color: #ffe0e8;
 }
 
-/* Main Section */
+
 main {
     width: 90%;
     max-width: 850px;
@@ -64,7 +64,7 @@ main h2 {
     line-height: 1.7;
 }
 
-/* Form */
+
 form {
     background-color: white;
     padding: 30px;
@@ -94,7 +94,6 @@ form > fieldset > label {
     font-weight: bold;
 }
 
-/* Input Styling */
 input:not([type="radio"]):not([type="checkbox"]),
 select,
 textarea {
@@ -121,7 +120,7 @@ input:invalid:focus {
     border-color: #d46a78;
 }
 
-/* Choice Options */
+
 .choice {
     display: flex;
     align-items: center;
@@ -133,13 +132,13 @@ input:invalid:focus {
     margin: 0;
 }
 
-/* Color Input */
+
 input[type="color"] {
     height: 45px;
     cursor: pointer;
 }
 
-/* Buttons */
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -172,7 +171,7 @@ footer p {
     color: white;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 600px) {
     main {
         width: 100%;
