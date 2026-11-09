@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff8f5;
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #604b50;
+}
+
+header {
+    background: linear-gradient(to right, #f8e1e7, #fff0f3);
+    padding: 25px;
+}
+
+header h1 {
+    color: #914e65;
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    color: #9b6073;
+}
+
+nav {
+    background-color: #9b6073;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ffe0e8;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+.intro {
+    max-width: 850px;
+    margin: auto;
+}
+
+h2 {
+    color: #914e65;
+    font-size: 30px;
+}
+
+.intro p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+.service-card {
+    background-color: white;
+    width: 45%;
+    padding: 20px;
+    border: 2px solid #e7bdca;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(120, 50, 75, 0.15);
+}
+
+
+.service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    background-color: #fff8f5;
+    border-radius: 12px;
+}
+
+
+.service-card h3 {
+    color: #914e65;
+    font-size: 22px;
+}
+
+.service-card p {
+    line-height: 1.7;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(120, 50, 75, 0.25);
+}
+
+.special {
+    background: linear-gradient(to right, #f8e1e7, #fff0f3);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #9b6073;
+    color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        width: 100%;
+    }
+
+    nav a {
+        margin: 7px;
+    }
+
+    .service-card img {
+        height: 200px;
+    }
+}
