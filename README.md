@@ -6,7 +6,7 @@ The Royal Stem is a flower boutique website designed to showcase beautiful flowe
 - Home Page
 - Flower Guide
 - Flower Orders
-
+- Services 
 ## Technologies Used
 - HTML
 - CSS
