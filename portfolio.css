@@ -1,0 +1,141 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff8f5;
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #604b50;
+}
+
+header {
+    background: linear-gradient(to right, #f8e1e7, #fff0f3);
+    padding: 25px;
+}
+
+header h1 {
+    color: #914e65;
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    color: #9b6073;
+}
+
+nav {
+    background-color: #9b6073;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ffe0e8;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h2 {
+    color: #914e65;
+    font-size: 30px;
+}
+
+.intro p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 25px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.gallery-card {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    background-color: #fff8f5;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.gallery-card h3 {
+    color: #914e65;
+}
+
+.gallery-card p {
+    color: #604b50;
+}
+
+.gallery-card:hover {
+    transform: scale(1.03);
+}
+
+.gallery-note {
+    background-color: #f8e1e7;
+    padding: 35px;
+    margin: 40px auto;
+    border-radius: 12px;
+    max-width: 900px;
+}
+
+.gallery-note p {
+    line-height: 1.8;
+}
+
+.gallery-note a {
+    display: inline-block;
+    background-color: #9b6073;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.gallery-note a:hover {
+    background-color: #754355;
+}
+
+footer {
+    background-color: #9b6073;
+    color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .gallery-card {
+        width: 100%;
+    }
+
+    nav a {
+        margin: 7px;
+    }
+}
